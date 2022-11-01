@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./jquery.js"></script>
+    <script src="./js/ajax_category.js"></script>
+    <title>Admin_Category</title>
+</head>
+<body>
+    Admin Category
+    <div id="category_Add">
+        <input type="file" id="addFileIMG">
+        <input type="text" id="TxtCategory" placeholder="Category Name">
+        <input type="button" value="Add Category" id="Add_Cate">
+        <input type="hidden" id="file_ImgCate"><br>
+        <img width="10%" id="imgtest"> <br>
+
+    </div>
+
+    <div>
+        Categories:
+        <ul id="list_cate">
+            <li>...</li>
+        </ul>
+    </div>
+
+    <div>
+        <input type="file" id="edit_File"> <br>
+       
+    </div>
+
+    <div>
+        <input type="text" id="changeTxt" placeholder="Click To Change">
+        <input type="button" value="Change Category" id="btn_changeCate">
+        <input type="button" value="Delete Category" id="btn_DelCate">
+        <input type="hidden" id="hid_ID">
+        <input type="hidden" id="hid_ImgName">
+    </div>
+    
+</body>
+</html>

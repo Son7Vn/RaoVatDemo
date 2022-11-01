@@ -1,0 +1,9 @@
+{
+    "domain": "http://localhost:3000",
+    "mongoose": {
+        "username": "sonphansignals",
+        "password": "sEF1EgO0lkZ2L4LL",
+        "server": "cluster0.acg1g.mongodb.net",
+        "dbname": "Signals_02"
+    }
+}

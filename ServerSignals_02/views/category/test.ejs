@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<style>
+    .banner-0{
+            background-color: blue;
+        }
+    .banner-1{
+        background-color: red;
+    }
+    .banner-2{
+        background: green;
+    }
+    .banner-4{
+        background-color: blueviolet;
+    }
+    </style>
+    <body>
+        <p>Chào Bạn đã đến với website </p>
+        <p>Chào Bạn đã đến với website </p>
+        <p>Chào Bạn đã đến với website </p>
+        <p>Hahaha</p>
+        <p>Accepted!</p>
+        <button onclick="action()" id="btn_click">Click</button>
+        <button onclick="action()">Click2</button>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            function action(){
+                $('#btn_click').addClass(function(i){
+                    return "banner-"+i;
+                });
+            }
+        </script>
+    </body>
+</html>
